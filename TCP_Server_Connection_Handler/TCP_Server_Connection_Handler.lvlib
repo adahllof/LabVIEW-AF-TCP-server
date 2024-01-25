@@ -25,6 +25,10 @@
 	</Item>
 	<Item Name="TypeDefinitions" Type="Folder">
 		<Item Name="ClientMessage.ctl" Type="VI" URL="../TypeDefinitions/ClientMessage.ctl"/>
+		<Item Name="messageType.ctl" Type="VI" URL="../TypeDefinitions/messageType.ctl"/>
+	</Item>
+	<Item Name="Utility" Type="Folder">
+		<Item Name="ParseMessageType.vi" Type="VI" URL="../Utility/ParseMessageType.vi"/>
 	</Item>
 	<Item Name="TCP_Connections_Controller.lvclass" Type="LVClass" URL="../TCP_Connections_Controller/TCP_Connections_Controller.lvclass"/>
 	<Item Name="TCP_Server_Connection_Handler.lvclass" Type="LVClass" URL="../TCP_Server_Connection_Handler/TCP_Server_Connection_Handler.lvclass"/>

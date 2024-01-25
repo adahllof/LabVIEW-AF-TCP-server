@@ -10,6 +10,7 @@
 		<Item Name="GetMessageLength Msg.lvclass" Type="LVClass" URL="../TCP_Client Messages/GetMessageLength Msg/GetMessageLength Msg.lvclass"/>
 		<Item Name="LookForStartOfMessage Msg.lvclass" Type="LVClass" URL="../TCP_Client Messages/LookForStartOfMessage Msg/LookForStartOfMessage Msg.lvclass"/>
 		<Item Name="ReadMessage Msg.lvclass" Type="LVClass" URL="../TCP_Client Messages/ReadMessage Msg/ReadMessage Msg.lvclass"/>
+		<Item Name="SaveFile Msg.lvclass" Type="LVClass" URL="../TCP_Client Messages/SaveFile Msg/SaveFile Msg.lvclass"/>
 		<Item Name="SendMessageToServer Msg.lvclass" Type="LVClass" URL="../TCP_Client Messages/SendMessageToServer Msg/SendMessageToServer Msg.lvclass"/>
 		<Item Name="Upload Msg.lvclass" Type="LVClass" URL="../TCP_Client Messages/Upload Msg/Upload Msg.lvclass"/>
 	</Item>
