@@ -9,13 +9,22 @@
 	<Property Name="NI.LVClass.ClassNameVisibleInProbe" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.IsInterface" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.0</Property>
-	<Item Name="NewMessageToSend.vi" Type="VI" URL="../NewMessageToSend.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!':!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!':!=!!?!!!^&amp;V2$5&amp;^$&lt;'FF&lt;H2@6WFO:'^X,GRW&lt;'FC)V2$5&amp;^$&lt;'FF&lt;H28;7ZE&lt;X&gt;@1W^O&gt;(*P&lt;'RF=CZM&gt;G.M98.T!"^51V"@1WRJ:7ZU6WFO:'^X8U.P&lt;H2S&lt;WRM:8)A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%%!Q`````Q&gt;.:8.T97&gt;F!':!=!!?!!!^&amp;V2$5&amp;^$&lt;'FF&lt;H2@6WFO:'^X,GRW&lt;'FC)V2$5&amp;^$&lt;'FF&lt;H28;7ZE&lt;X&gt;@1W^O&gt;(*P&lt;'RF=CZM&gt;G.M98.T!"Z51V"@1WRJ:7ZU6WFO:'^X8U.P&lt;H2S&lt;WRM:8)A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!AA!!!#1!!!!!!%!#1!!!!!</Property>
+	<Item Name="CloseConnection.vi" Type="VI" URL="../CloseConnection.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'A!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!':!=!!?!!!^&amp;V2$5&amp;^$&lt;'FF&lt;H2@6WFO:'^X,GRW&lt;'FC)V2$5&amp;^$&lt;'FF&lt;H28;7ZE&lt;X&gt;@1W^O&gt;(*P&lt;'RF=CZM&gt;G.M98.T!"^51V"@1WRJ:7ZU6WFO:'^X8U.P&lt;H2S&lt;WRM:8)A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;U!$!"&amp;$&lt;WZO:7.U;7^O)'ZV&lt;7*F=A"G1(!!(A!!02&gt;51V"@1WRJ:7ZU8V&gt;J&lt;G2P&gt;SZM&gt;GRJ9C.51V"@1WRJ:7ZU6WFO:'^X8U.P&lt;H2S&lt;WRM:8)O&lt;(:D&lt;'&amp;T=Q!?6%.18U.M;76O&gt;&amp;&gt;J&lt;G2P&gt;V^$&lt;WZU=G^M&lt;'6S)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!)!!!!E!!!!!!"!!E!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1115685376</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+	</Item>
+	<Item Name="NewMessageToSend.vi" Type="VI" URL="../NewMessageToSend.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)&gt;!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!':!=!!?!!!^&amp;V2$5&amp;^$&lt;'FF&lt;H2@6WFO:'^X,GRW&lt;'FC)V2$5&amp;^$&lt;'FF&lt;H28;7ZE&lt;X&gt;@1W^O&gt;(*P&lt;'RF=CZM&gt;G.M98.T!"^51V"@1WRJ:7ZU6WFO:'^X8U.P&lt;H2S&lt;WRM:8)A&lt;X6U!'U!]1!!!!!!!!!#)V2$5&amp;^4:8*W:8*@1W^O&lt;G6D&gt;'FP&lt;F^)97ZE&lt;'6S,GRW&lt;'FC$WVF=X.B:W65?8"F,G.U&lt;!!R1"9!"!&gt;N:8.T97&gt;F"':J&lt;'5$:W6U#&amp;.I&gt;82%&lt;X&gt;O!!N.:8.T97&gt;F6(FQ:1!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"&gt;!!Q!21W^O&lt;G6D&gt;'FP&lt;C"/&gt;7VC:8)!%%!Q`````Q&gt;.:8.T97&gt;F!':!=!!?!!!^&amp;V2$5&amp;^$&lt;'FF&lt;H2@6WFO:'^X,GRW&lt;'FC)V2$5&amp;^$&lt;'FF&lt;H28;7ZE&lt;X&gt;@1W^O&gt;(*P&lt;'RF=CZM&gt;G.M98.T!"Z51V"@1WRJ:7ZU6WFO:'^X8U.P&lt;H2S&lt;WRM:8)A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!9!"!!(!!A!#1!+!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!#!!!!!!!!!!)!!!!#!!!!AA!!!#1!!!!!!%!#Q!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
 </LVClass>

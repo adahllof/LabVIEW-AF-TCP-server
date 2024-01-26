@@ -9,6 +9,7 @@
 		<Item Name="ShutDown Msg.lvclass" Type="LVClass" URL="../TCP_ServerWithGUI Messages/ShutDown Msg/ShutDown Msg.lvclass"/>
 	</Item>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="DisableDissconnectButton Msg.lvclass" Type="LVClass" URL="../TCP_serverGUI Messages/DisableDissconnectButton Msg/DisableDissconnectButton Msg.lvclass"/>
 		<Item Name="Dissconnect Msg.lvclass" Type="LVClass" URL="../TCP_serverGUI Messages/Dissconnect Msg/Dissconnect Msg.lvclass"/>
 		<Item Name="UpdateConnectionsListbox Msg.lvclass" Type="LVClass" URL="../TCP_serverGUI Messages/UpdateConnectionsListbox Msg/UpdateConnectionsListbox Msg.lvclass"/>
 		<Item Name="UpdateErrorfile Msg.lvclass" Type="LVClass" URL="../TCP_serverGUI Messages/UpdateErrorfile Msg/UpdateErrorfile Msg.lvclass"/>

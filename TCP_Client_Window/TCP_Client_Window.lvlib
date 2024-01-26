@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="CloseThisConnection Msg.lvclass" Type="LVClass" URL="../TCP_Client_Window Messages/CloseThisConnection Msg/CloseThisConnection Msg.lvclass"/>
 		<Item Name="NewClientMessage Msg.lvclass" Type="LVClass" URL="../TCP_Client_Window Messages/NewClientMessage Msg/NewClientMessage Msg.lvclass"/>
 		<Item Name="SendMessageToClient Msg.lvclass" Type="LVClass" URL="../TCP_Client_Window Messages/SendMessageToClient Msg/SendMessageToClient Msg.lvclass"/>
 		<Item Name="UpdateWindowTitle Msg.lvclass" Type="LVClass" URL="../TCP_Client_Window Messages/UpdateWindowTitle Msg/UpdateWindowTitle Msg.lvclass"/>
@@ -12,6 +13,7 @@
 		<Item Name="Write Error Logger&apos;s Enqueuer Msg.lvclass" Type="LVClass" URL="../TCP_Client_Window Messages/Write Error Logger&apos;s Enqueuer Msg/Write Error Logger&apos;s Enqueuer Msg.lvclass"/>
 	</Item>
 	<Item Name="MessagesForCaller" Type="Folder">
+		<Item Name="CloseConnection Msg.lvclass" Type="LVClass" URL="../TCP_ClientWindow_Controller Messages/CloseConnection Msg/CloseConnection Msg.lvclass"/>
 		<Item Name="NewMessageToSend Msg.lvclass" Type="LVClass" URL="../TCP_ClientWindow_Controller Messages/NewMessageToSend Msg/NewMessageToSend Msg.lvclass"/>
 	</Item>
 	<Item Name="TCP_Client_Window.lvclass" Type="LVClass" URL="../TCP_Client_Window/TCP_Client_Window.lvclass"/>

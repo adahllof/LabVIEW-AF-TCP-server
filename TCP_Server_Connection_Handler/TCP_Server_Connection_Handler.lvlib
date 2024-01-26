@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for Caller" Type="Folder">
 		<Item Name="ConnectionClosed Msg.lvclass" Type="LVClass" URL="../TCP_Connections_Controller Messages/ConnectionClosed Msg/ConnectionClosed Msg.lvclass"/>
+		<Item Name="ConnectionInfoUpdated Msg.lvclass" Type="LVClass" URL="../TCP_Connections_Controller Messages/ConnectionInfoUpdated Msg/ConnectionInfoUpdated Msg.lvclass"/>
 		<Item Name="MessageRecieved Msg.lvclass" Type="LVClass" URL="../TCP_Connections_Controller Messages/MessageRecieved Msg/MessageRecieved Msg.lvclass"/>
 	</Item>
 	<Item Name="Messages for this Actor" Type="Folder">
@@ -22,14 +23,15 @@
 		<Item Name="SendWelcome Msg.lvclass" Type="LVClass" URL="../TCP_Server_Connection_Handler Messages/SendWelcome Msg/SendWelcome Msg.lvclass"/>
 		<Item Name="CloseConnection Msg.lvclass" Type="LVClass" URL="../TCP_Server_Connection_Handler Messages/CloseConnection Msg/CloseConnection Msg.lvclass"/>
 		<Item Name="SaveFile Msg.lvclass" Type="LVClass" URL="../TCP_Server_Connection_Handler Messages/SaveFile Msg/SaveFile Msg.lvclass"/>
+		<Item Name="Increment Bytes Received Msg.lvclass" Type="LVClass" URL="../TCP_Server_Connection_Handler Messages/Increment Bytes Received Msg/Increment Bytes Received Msg.lvclass"/>
+		<Item Name="Increment Bytes Sent Msg.lvclass" Type="LVClass" URL="../TCP_Server_Connection_Handler Messages/Increment Bytes Sent Msg/Increment Bytes Sent Msg.lvclass"/>
+		<Item Name="DownloadFile Msg.lvclass" Type="LVClass" URL="../TCP_Server_Connection_Handler Messages/DownloadFile Msg/DownloadFile Msg.lvclass"/>
 	</Item>
 	<Item Name="TypeDefinitions" Type="Folder">
 		<Item Name="ClientMessage.ctl" Type="VI" URL="../TypeDefinitions/ClientMessage.ctl"/>
 		<Item Name="messageType.ctl" Type="VI" URL="../TypeDefinitions/messageType.ctl"/>
 	</Item>
-	<Item Name="Utility" Type="Folder">
-		<Item Name="ParseMessageType.vi" Type="VI" URL="../Utility/ParseMessageType.vi"/>
-	</Item>
+	<Item Name="Utility" Type="Folder"/>
 	<Item Name="TCP_Connections_Controller.lvclass" Type="LVClass" URL="../TCP_Connections_Controller/TCP_Connections_Controller.lvclass"/>
 	<Item Name="TCP_Server_Connection_Handler.lvclass" Type="LVClass" URL="../TCP_Server_Connection_Handler/TCP_Server_Connection_Handler.lvclass"/>
 </Library>
