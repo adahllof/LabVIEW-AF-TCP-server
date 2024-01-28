@@ -14,5 +14,6 @@
 		<Item Name="SendMessageToServer Msg.lvclass" Type="LVClass" URL="../TCP_Client Messages/SendMessageToServer Msg/SendMessageToServer Msg.lvclass"/>
 		<Item Name="Upload Msg.lvclass" Type="LVClass" URL="../TCP_Client Messages/Upload Msg/Upload Msg.lvclass"/>
 	</Item>
+	<Item Name="Clients.ico" Type="Document" URL="../Clients.ico"/>
 	<Item Name="TCP_Client.lvclass" Type="LVClass" URL="../TCP_Client/TCP_Client.lvclass"/>
 </Library>

@@ -15,5 +15,14 @@
 	<Item Name="TypeDefinitions" Type="Folder">
 		<Item Name="ServerConnection.ctl" Type="VI" URL="../TCP_Server/TypeDeclarations/ServerConnection.ctl"/>
 	</Item>
+	<Item Name="Files" Type="Folder">
+		<Item Name="textfil.txt" Type="Document" URL="../../Files/textfil.txt"/>
+		<Item Name="Till rors på Millan (liten).jpg" Type="Document" URL="../../Files/Till rors på Millan (liten).jpg"/>
+	</Item>
+	<Item Name="errorlog" Type="Folder">
+		<Item Name="ServerApplication_1.csv" Type="Document" URL="../../errorlog/ServerApplication_1.csv"/>
+		<Item Name="TCP_ClientErrors_1.csv" Type="Document" URL="../../errorlog/TCP_ClientErrors_1.csv"/>
+	</Item>
 	<Item Name="TCP_Server.lvclass" Type="LVClass" URL="../TCP_Server/TCP_Server.lvclass"/>
+	<Item Name="Server.ico" Type="Document" URL="../Server.ico"/>
 </Library>
